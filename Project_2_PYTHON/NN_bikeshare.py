@@ -322,6 +322,7 @@ def main():
     # Restarting option
     restart = input("\n * Would you like to perform another analysis? Type \'yes\' or \'no\'.\n")
     if restart.upper() == 'YES' or restart.upper() == "Y":
+        # This print statement was added for the purpose of the GitHub Project.
         print(restart)
         main()
 

@@ -322,6 +322,7 @@ def main():
     # Restarting option
     restart = input("\n * Would you like to perform another analysis? Type \'yes\' or \'no\'.\n")
     if restart.upper() == 'YES' or restart.upper() == "Y":
+        print(restart)
         main()
 
 if __name__ == '__main__':
